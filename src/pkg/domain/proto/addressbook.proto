@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "proto/person.proto";
+
+option go_package = "./types";
+
+message AddressBook {
+  repeated Person contact = 1;
+}

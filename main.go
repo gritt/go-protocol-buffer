@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/gritt/go-protocol-buffer/types"
+	"github.com/gritt/go-protocol-buffer/src/pkg/domain/types"
 	"google.golang.org/protobuf/proto"
 )
 

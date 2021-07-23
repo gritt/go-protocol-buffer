@@ -1,7 +1,4 @@
 syntax = "proto3";
-package main;
-
-import "google/protobuf/timestamp.proto";
 
 option go_package = "./types";
 
@@ -11,7 +8,4 @@ message Person {
   int32 phone = 3;
 }
 
-message AddressBook {
-  repeated Person contact = 1;
-}
 

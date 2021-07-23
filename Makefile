@@ -4,7 +4,7 @@ setup:
 
 .PHONY:proto-gen
 proto-gen:
-	protoc -I=./ --go_out=./ ./proto/person.proto
+	protoc -I=./src/pkg/domain --go_out=./src/pkg/domain ./src/pkg/domain/proto/*.proto
 
 .PHONY:run
 run:
